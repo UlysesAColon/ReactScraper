@@ -1,0 +1,31 @@
+{
+  "name": "reactscraper",
+  "version": "1.0.0",
+  "description": "React Scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlysesAColon/ReactScraper.git"
+  },
+  "author": "Ulyses Colon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlysesAColon/ReactScraper/issues"
+  },
+  "homepage": "https://github.com/UlysesAColon/ReactScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "serve-favicon": "^2.5.0"
+  }
+}
